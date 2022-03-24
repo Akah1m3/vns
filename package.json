@@ -1,0 +1,21 @@
+{
+  "name": "vns",
+  "description": "some test desc",
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "latest",
+    "@typescript-eslint/parser": "latest",
+    "eslint": "^8.11.0",
+    "prettier": "^2.6.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "fastify": "^3.27.4"
+  }
+}
